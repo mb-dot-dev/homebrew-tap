@@ -5,21 +5,21 @@
 class Busynet < Formula
   desc "Display information on a busy bar (.net)"
   homepage "https://github.com/mb-dot-dev/busynet"
-  url "https://github.com/mb-dot-dev/busynet/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "d0e7be34cf7054f4c5270de918c84c24187b923bb060a02f406d8e396c688738"
+  url "https://github.com/mb-dot-dev/busynet/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "a02a1034f41a147ab8b7e2f3207ef7cc0faedbb7c821747e012af31512f31efa"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.1.0/busynet-1.1.0-darwin-arm64.tar.gz"
-      sha256 "9bba4e99f42d63139c31b67eb53af3769b261c774b721bc670df3916e6ce5ffc"
+      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.1.1/busynet-1.1.1-darwin-arm64.tar.gz"
+      sha256 "88f263d0c93ae2214c6c4036f3d35d116b82c35a8344ff30e9eedf040f679574"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.1.0/busynet-1.1.0-linux-amd64.tar.gz"
-      sha256 "148b08e5ff5a020c72c56f92542f95842a27c5f895dda9976c2e78f35c02ad14"
+      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.1.1/busynet-1.1.1-linux-amd64.tar.gz"
+      sha256 "6ac752396af8ce75034ba7cc5063d559f7db4eb521da71441ea807a23e2c941e"
     end
   end
 
