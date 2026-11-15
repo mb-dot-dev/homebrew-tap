@@ -5,21 +5,14 @@
 class Busynet < Formula
   desc "Display information on a busy bar (.net)"
   homepage "https://github.com/mb-dot-dev/busynet"
-  url "https://github.com/mb-dot-dev/busynet/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "a02a1034f41a147ab8b7e2f3207ef7cc0faedbb7c821747e012af31512f31efa"
+  url "https://github.com/mb-dot-dev/busynet/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "ceaa77449622e7f56d4c3d63d0d6122a8878c11359d21543a46d4024463fbf00"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.1.1/busynet-1.1.1-darwin-arm64.tar.gz"
-      sha256 "88f263d0c93ae2214c6c4036f3d35d116b82c35a8344ff30e9eedf040f679574"
-    end
-  end
-
-  on_linux do
-    on_intel do
-      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.1.1/busynet-1.1.1-linux-amd64.tar.gz"
-      sha256 "6ac752396af8ce75034ba7cc5063d559f7db4eb521da71441ea807a23e2c941e"
+      url "https://github.com/mb-dot-dev/busynet/releases/download/v1.2.0/busynet-1.2.0-darwin-arm64.tar.gz"
+      sha256 "48ef5009d6d3e38fbfbab1d2aea67128dc260aadd4f66878e9cfed2a6e62772d"
     end
   end
 
